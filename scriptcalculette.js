@@ -22,7 +22,7 @@ function calculate() {
         return;
     }
     if(Number(display.textContent) === 45) {
-     window.location.href ="jeu1.html";
+     window.location.href ="./jeu1.html";
     } else {
         display.textContent = 'try again';
          setTimeout(clearDisplay, 1000);
@@ -41,3 +41,4 @@ document.addEventListener('keydown', (e) => {
     }
 
 });
+
